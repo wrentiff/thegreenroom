@@ -52,5 +52,5 @@ async function compositeFrame(backgroundDarkeningMask) {
     ctx.putImageData(backgroundDarkeningMask, 0, 0);
     // composite the video frame
     ctx.globalCompositeOperation = 'source-in';
-    ctx.drawImage(video, 0, 0, 400, 400);
+    ctx.drawImage(video, 0, 0, 640, 480);
 }
